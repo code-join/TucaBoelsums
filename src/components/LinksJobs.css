@@ -34,8 +34,7 @@
 
 @media screen and (max-width: 380px) {
   .links-jobs ul {
-    padding: 6px 0;
-    background: rgb(176, 166, 152);
+    padding: 6px 0;    
     border-radius: 8px;
     color: white;
     gap: 6px;
