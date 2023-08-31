@@ -1,0 +1,62 @@
+.fotos {
+  display: flex;
+  justify-content: center;
+}
+
+.fotos p {
+  margin: 0;
+}
+
+.fotos #link-fotos {
+  backdrop-filter: blur(4px);
+  background: rgb(48, 33, 12);
+  border: 1px solid rgb(48, 33, 12);;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 100%;
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.fotos #link-fotos:hover {
+  background: rgba(212, 184, 21, 0.196);
+  border: 1px solid rgb(46, 46, 110);
+  border-radius: 8px;
+  color: rgb(46, 46, 110);
+}
+
+@media screen and (max-width: 380px) {
+  .fotos {
+    padding: 16px 0 0;
+  }
+  .fotos #link-fotos {
+    font-weight: 400;
+    padding: 10px 24px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .fotos {
+    padding: 20px 0 0;
+  }
+  .fotos #link-fotos {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 13px 24px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .fotos {
+    padding: 24px 0 0;
+  }
+  .fotos #link-fotos {
+    font-size: 1.2em;
+    padding: 16px 24px;
+  }
+}

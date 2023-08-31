@@ -1,0 +1,59 @@
+.video-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  margin: 10px 16px;
+}
+
+#link-voltar-video p {
+  margin: 0;
+}
+
+#link-voltar-video {
+  backdrop-filter: blur(4px);
+  background: rgb(48, 33, 12);
+  border: 1px solid rgb(48, 33, 12);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 100%;
+  -webkit-backdrop-filter: blur(4px);
+}
+
+#link-voltar-video:hover {
+  background: rgba(212, 184, 21, 0.196);
+  border: 1px solid rgb(46, 46, 110);
+  border-radius: 8px;
+  color: rgb(46, 46, 110);
+}
+
+@media screen and (max-width: 380px) {
+  #link-voltar-video {
+    font-weight: 400;
+    margin: 16px auto;
+    padding: 8px 32px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  #link-voltar-video {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 16px auto;
+    padding: 12px 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #link-voltar-video {
+    font-size: 1.2em;
+    margin: 24px auto;
+    padding: 12px 44px;
+  }
+}
