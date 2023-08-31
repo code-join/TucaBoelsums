@@ -40,7 +40,7 @@ const JanelaModal = ({ show, fechaModal }) => {
         <Modal.Header closeButton>
           <Modal.Title>
             Contatos:
-            <p>Clique no número desejado</p>
+            <p>Clique no whatsapp ou e-mail</p>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

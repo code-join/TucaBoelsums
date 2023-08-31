@@ -5,7 +5,7 @@ const Footer = () => {
 	const email = 'codejoin.dev@gmail.com';
 	const subject = 'Agregador de Links';
 	const msg = `Para criar seu agregador de links customizado, entre em contato com:
-	<em>(31) 99183-8573 / (21) 98016-7955<em>`;
+	(31) 99183-8573 / (21) 98016-7955`;
 
 	const sendEmail = () => {
 		const url = `mailto:${email}?subject=${encodeURIComponent(
